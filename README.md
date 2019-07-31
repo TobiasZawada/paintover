@@ -19,6 +19,7 @@ Augment hi-lock.el with properties and filters (concept study).
     - nil is an acceptable `PROPERTIES` argument.
  2. a filter function `FILTER`, it is called as `(FILTER '(face FACE PROP1 VAL1 PROP2 VAL2 ...))`
     The filter can modify the list argument and return the modified list that is used for the `FACENAME` element.
+ 3. The prefix has changed from `hi-lock` to `paintover`.
 
 ## Notes:
   1. You have to add the properties that you use in the FACENAME
